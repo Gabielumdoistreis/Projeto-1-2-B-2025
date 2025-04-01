@@ -1,10 +1,10 @@
 .cabecalho{
-    width: 810px;
-    height: 500px;
+    width: 400px;
+    height: 800px;
     background-color: black
 }
-.primeira-secao{
+.primeira-secao{  
     width:  428px;
     height: 428px;
-    background-color: white
+    background-color: gray
 }
