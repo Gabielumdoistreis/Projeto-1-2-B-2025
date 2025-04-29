@@ -1,11 +1,63 @@
-.cabecalho{
-    width: 420px;
-    height: 720px;
-    background-color:rgba(211, 208, 66, 0.486)
-}
-.primeira-secao {
-    width: 500px; /* Defina a largura desejada para a tela */
-    height: 300px; /* Defina a altura desejada para a tela */
-    border: 1px solid #ccc; /* Adiciona uma borda para visualização (opcional) */
-    /* Outros estilos como margem, padding, etc. */
-}
+body {
+    margin: 0;
+    background-color: #d9ead3; /* Cor de fundo verde claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    position: relative;
+    width: 400px; /* Largura aproximada da imagem */
+    height: 600px; /* Altura aproximada da imagem */
+    /* border: 1px solid black; /* Para visualizar o container */
+  }
+  
+  .texto-topo {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+  }
+  
+  .arma {
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    width: 80px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
+  .picareta {
+    position: absolute;
+    top: 180px;
+    right: 50px;
+    width: 70px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    transform: rotate(-20deg); /* Rotaciona um pouco a picareta */
+  }
+  
+  .personagem {
+    position: absolute;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+  }
+  
+  .logo-fortnite {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffc857; /* Cor amarela do logo */
+    /* Adicione mais estilos de fonte se desejar */
+  }
