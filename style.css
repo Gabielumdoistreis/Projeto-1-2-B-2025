@@ -3,3 +3,9 @@
     height: 720px;
     background-color:rgba(211, 208, 66, 0.486)
 }
+.primeira-secao {
+    width: 500px; /* Defina a largura desejada para a tela */
+    height: 300px; /* Defina a altura desejada para a tela */
+    border: 1px solid #ccc; /* Adiciona uma borda para visualização (opcional) */
+    /* Outros estilos como margem, padding, etc. */
+}
